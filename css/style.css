@@ -781,6 +781,11 @@ a:hover {
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
+@media (max-width: 772px) {
+    .site-blocks-cover h1 {
+        font-size: 1.5rem;
+    }
+}
 .site-blocks-cover p {
     color: #fff;
     font-size: 1.5rem;
